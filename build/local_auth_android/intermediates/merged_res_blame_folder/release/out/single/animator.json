@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_open_enter.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_open_exit.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_close_exit.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_close_enter.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/local_auth_android/intermediates/merged_res/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/macbookpro/.gradle/caches/transforms-3/29370699bb88e0555f4a84ecd53c4aca/transformed/fragment-1.5.4/res/animator/fragment_fade_exit.xml"
+    }
+]

@@ -1,0 +1,4 @@
+#Sun Apr 23 08:29:42 UZT 2023
+base.0=/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
