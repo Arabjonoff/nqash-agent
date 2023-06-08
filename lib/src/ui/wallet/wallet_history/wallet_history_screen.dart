@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:naqsh_agent/src/bloc/wallet/wallet_history.dart';
@@ -49,7 +50,7 @@ class _WalletHistoryScreenState extends State<WalletHistoryScreen> {
         backgroundColor: AppTheme.white,
         centerTitle: true,
         title: Text(
-          '${widget.datmodel.name} tarixi',
+          '${widget.datmodel.name}',
           style: TextStyle(
               fontSize: 25 * w,
               fontWeight: FontWeight.w700,
@@ -114,13 +115,13 @@ class _WalletHistoryScreenState extends State<WalletHistoryScreen> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text('Oy boshiga qoldiq'),
+                              Text('monthBalanceStart'.tr()),
                               widget.datmodel.valyuteType == 'sum'?Text('${priceFormat.format(snapshot.data!.monthBalans)} sum',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),):Text('${snapshot.data!.monthBalans} dollar',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),),
                             ],),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text('Oy oxiriga qoldiq'),
+                              Text('monthBalanceLast'.tr()),
                               widget.datmodel.valyuteType == 'sum'?Text('${priceFormat.format(monthBalance+incomeBalance-debtBalance)} sum',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),):Text('${priceFormat.format(monthBalance+incomeBalance-debtBalance)} dollar',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 15),),
                             ],),
                         ],

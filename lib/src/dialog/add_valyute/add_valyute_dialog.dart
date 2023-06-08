@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
@@ -24,7 +25,7 @@ class AddValyuteDialog {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15),),
               backgroundColor: AppTheme.background,
-              title: Text('Kurs qoshish'),
+              title: Text('addCourse'.tr()),
               content: SizedBox(
                 height: 150 * h,
                 child: SingleChildScrollView(
@@ -54,7 +55,7 @@ class AddValyuteDialog {
                         horizontal: true,
                         controller: controller,
                         icon: 'assets/icons/money.svg',
-                        hint: 'Kursni kiriting',
+                        hint: 'enterCourse'.tr(),
                         type: true,
                       )
                     ],
@@ -66,7 +67,7 @@ class AddValyuteDialog {
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: Text('Bekor qilish')),
+                    child: Text('cancel'.tr())),
                 TextButton(
                     onPressed: () async {
                       HttpResult res = await repository.courseAdd(
@@ -77,7 +78,7 @@ class AddValyuteDialog {
                         courseBloc.getCourse();
                       }
                     },
-                    child: Text('Qoshish')),
+                    child: Text('confirmation'.tr())),
               ],
             );
           });

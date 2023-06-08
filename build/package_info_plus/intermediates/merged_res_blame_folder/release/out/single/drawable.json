@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/drawable/notification_bg_low.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/drawable/notification_icon_background.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/drawable/notification_bg.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/drawable/notification_bg.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/drawable/notification_icon_background.xml"
     }
 ]

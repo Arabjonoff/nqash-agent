@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/image_picker_android/intermediates/merged_res/release/values-ar/values-ar.xml",
+            "outputFile": "io.flutter.plugins.imagepicker.image_picker_android-merged_res-12:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/res/values-ar/values-ar.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/6bcfec596b645766dcdaf86eb5e5ac1c/transformed/core-1.8.0/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/image_picker_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-ar/values-ar.xml",
+            "outputFile": "io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-10:/values-ar/values-ar.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/res/values-ar/values-ar.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/6bcfec596b645766dcdaf86eb5e5ac1c/transformed/core-1.8.0/res/values-ar/values-ar.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

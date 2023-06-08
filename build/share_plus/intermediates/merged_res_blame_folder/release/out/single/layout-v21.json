@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/layout-v21/notification_action.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.9.0-0:/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/layout-v21/notification_template_custom_big.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.9.0-0:/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/layout-v21/notification_action_tombstone.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.9.0-0:/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/layout-v21/notification_action.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v21/notification_action.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/layout-v21/notification_template_icon_group.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.9.0-0:/layout-v21/notification_template_icon_group.xml"
     }
 ]

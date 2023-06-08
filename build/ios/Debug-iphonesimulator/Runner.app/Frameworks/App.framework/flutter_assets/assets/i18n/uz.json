@@ -75,5 +75,10 @@
   "errorRegister": "Ko'rsatilgan barcha maydonlarni to'ldiring",
   "home": "Asosiy",
   "deleteOk": "Haqiqatan ham oʻchirib tashlamoqchimisiz ?",
+  "share": "Ulashish",
+  "summa": "Summa",
+  "addExpense": "Xarajat Qo'shish",
+  "history": "Tarixi",
+  "allBalanceWallet": "Umumiy balans",
   "kontrAgent": "Kontr Agent"
 }

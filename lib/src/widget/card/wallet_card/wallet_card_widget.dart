@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/model/wallet/wallet_model.dart';
 import 'package:naqsh_agent/src/theme/app_theme.dart';
@@ -45,11 +46,11 @@ class WalletCardWidget extends StatelessWidget {
               ],
             ),
             const SizedBox(height: 35,),
-            Text('Umumiy balans',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 10,color: AppTheme.white),),
+            Text('allBalanceWallet'.tr(),style: TextStyle(fontWeight: FontWeight.w500,fontSize: 10,color: AppTheme.white),),
             const SizedBox(height: 5,),
             Text(priceFormat.format(data.balans).toString() ,style: TextStyle(fontWeight: FontWeight.w700,fontSize: 30,color: AppTheme.white),),
             const SizedBox(height: 15,),
-            Text('Valyuta : ${data.valyuteType}',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 12,color: AppTheme.white),),
+            Text("walletType".tr() +': ${data.valyuteType}',style: TextStyle(fontWeight: FontWeight.w500,fontSize: 12,color: AppTheme.white),),
           ],
         ),
       ),

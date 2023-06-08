@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/bloc/cost/cost_bloc.dart';
 import 'package:naqsh_agent/src/bloc/expense/expense_bloc.dart';
@@ -39,8 +40,8 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
   bool warning = false;
   bool loading = false;
   int costId = 0;
-  String wallet = 'Hamyon';
-  String costs = 'Xarajat turi';
+  String wallet = 'wallet'.tr();
+  String costs = 'typeExpense'.tr();
   String? walletType;
   int idWallet = 1;
 
@@ -53,7 +54,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
         foregroundColor: AppTheme.black24,
         elevation: 0,
         backgroundColor: AppTheme.background,
-        title: Text('Harajat qoshish'),
+        title: Text('addExpense'.tr()),
         actions: [
           IconButton(
               onPressed: () {
@@ -132,7 +133,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                               List<Datum> data = snapshot.data!.data;
                               return data.isEmpty?TextButton(onPressed: (){
                                 AddExpenseDialog.addExpenseDialog(context);
-                              }, child: const Text('Xarajat turi topilmadi qoshish')):Scrollbar(
+                              }, child:  Text('add'.tr())):Scrollbar(
                                 child: ListView.builder(
                                     itemCount: data.length,
                                     itemBuilder: (context, index) {
@@ -166,7 +167,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                                                       dismissDirection: DismissDirection.down,
                                                       content: AwesomeSnackbarContent(
                                                         title: "OK",
-                                                        message: "Xarajat turi o'chirildi",
+                                                        message: "Successfully",
                                                         contentType: ContentType.success,
                                                         inMaterialBanner: false,
                                                       ),
@@ -251,18 +252,18 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                   type: true,
                     controller: usdController,
                     icon: 'assets/icons/coin.svg',
-                    hint: 'Summa'),
+                    hint: 'summa'.tr()),
                 TextFieldWidget(
                     controller: commentController,
                     icon: 'assets/icons/message.svg',
-                    hint: 'Izoh'),
+                    hint: 'comment'.tr()),
 
               ],
             ),
           ),
           OnTapWidget(
             loading: loading,
-              title: 'Qoshish',
+              title: 'add'.tr(),
               onTap: () async {
               try{
                if(int.parse(Platform.isAndroid?usdController.text.replaceAll(",", ""):usdController.text.replaceAll(",", ""))< balans ){
@@ -291,7 +292,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                      behavior: SnackBarBehavior.floating,
                      dismissDirection: DismissDirection.down,
                      content: AwesomeSnackbarContent(
-                       title: "Xatolik",
+                       title: "Error",
                        message: res.result['error_message'],
                        contentType: ContentType.failure,
                        inMaterialBanner: false,
@@ -310,7 +311,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                    behavior: SnackBarBehavior.floating,
                    dismissDirection: DismissDirection.down,
                    content: AwesomeSnackbarContent(
-                     title: "Xatolik",
+                     title: "Error",
                      message: "Xamyonda mablag yetarli emas",
                      contentType: ContentType.failure,
                      inMaterialBanner: false,
@@ -326,7 +327,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                   behavior: SnackBarBehavior.floating,
                   dismissDirection: DismissDirection.down,
                   content: AwesomeSnackbarContent(
-                    title: "Xatolik",
+                    title: "Error",
                     message: "Nimadur xato qaytadan urinib koring",
                     contentType: ContentType.failure,
                     inMaterialBanner: false,

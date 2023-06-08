@@ -1,5 +1,6 @@
 // ignore_for_file: use_build_context_synchronously
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/dialog/alert/alert_dialog.dart';
@@ -58,8 +59,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
         foregroundColor: AppTheme.black24,
         backgroundColor: AppTheme.white,
         centerTitle: true,
-        title: const Text(
-          'Profile',
+        title:  Text(
+          'profile'.tr(),
           style: TextStyle(
               fontSize: 20, fontWeight: FontWeight.w700, color: Colors.black),
         ),
@@ -170,7 +171,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onTap: () {
                   ShowBottomLanguageDialog.showLangDialog(context);
                 },
-                title: Text('Tilni ozgartirish'),
+                title: Text('changeLang'.tr()),
               ),
             ),
             SizedBox(height: 10*h,),
@@ -190,7 +191,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     return const AboutScreen();
                   }));
                 },
-                title: Text('Ilova haqida'),
+                title: Text('about'.tr()),
               ),
             ),
             SizedBox(height: 10*h,),
@@ -208,7 +209,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context){return WebViewScreen();}));
                 },
-                title: Text('Online yordam'),
+                title: Text('call'.tr()),
               ),
             ),
             SizedBox(height: 10*h,),
@@ -226,7 +227,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onTap: () {
                   Share.share('https://play.google.com/store/apps/details?id=uz.naqshsoft.naqsh_client&hl=uz&gl=US');
                 },
-                title: Text('Ulashish'),
+                title: Text('share'.tr()),
               ),
             ),
             SizedBox(height: 10*h,),
@@ -244,8 +245,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 onTap: () {
                   ShowAlertDialog.showAlertDialog(
                     context,
-                    'Tizimdan chiqish',
-                    'Rostnaham tizimdan chiqmoqchimisz',
+                    'logOut'.tr(),
+                    'deleteOk'.tr(),
                     () async {
                       SharedPreferences preferences = await SharedPreferences.getInstance();
                       preferences.remove('token');
@@ -258,7 +259,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     },
                   );
                 },
-                title: Text('Tizimdan chiqish'),
+                title: Text('logOut'.tr()),
               ),
             ),
           ],

@@ -1,6 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:naqsh_agent/src/router/routers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -12,13 +11,13 @@ void main() async{
   runApp(
     EasyLocalization(
       saveLocale: true,
-      supportedLocales: const [
+      supportedLocales:  [
         Locale('uz'),
-        Locale('en'),
         Locale('ru'),
+        Locale('en'),
       ],
-      path: 'assets/i18n',child:  NaqshApp(token: token,),
       startLocale: Locale('uz'),
+      path: 'assets/i18n',child:  NaqshApp(token: token,),
     ),);
 }
 
@@ -33,7 +32,7 @@ class NaqshApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Naqsh Agent',
+      title: 'N hisob',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/1c9752fa10018c2f7065d44d4e9ee877/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml",
+            "outputFile": "dev.fluttercommunity.plus.share.share_plus-mergeReleaseResources-10:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/1c9752fa10018c2f7065d44d4e9ee877/transformed/core-1.9.0/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/theme/app_theme.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -10,7 +11,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Ilova haqida'),
+        title: Text('about'.tr()),
         foregroundColor: AppTheme.black24,
         backgroundColor: AppTheme.background,
       ),
@@ -33,7 +34,7 @@ class AboutScreen extends StatelessWidget {
                     height: 10,
                   ),
                   const Text(
-                    'N Hisob mobil liovasi',
+                    'N Hisob ',
                     style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
                   ),
                   const SizedBox(

@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/url_launcher_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+        "merged": "io.flutter.plugins.urllauncher.url_launcher_android-merged_res-10:/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-2:/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/url_launcher_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "io.flutter.plugins.urllauncher.url_launcher_android-merged_res-10:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-2:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/url_launcher_android/intermediates/merged_res/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+        "merged": "io.flutter.plugins.urllauncher.url_launcher_android-merged_res-10:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-2:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/url_launcher_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal.9.png",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+        "merged": "io.flutter.plugins.urllauncher.url_launcher_android-merged_res-10:/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-2:/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/url_launcher_android/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+        "merged": "io.flutter.plugins.urllauncher.url_launcher_android-merged_res-10:/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "io.flutter.plugins.urllauncher.url_launcher_android-core-1.6.0-2:/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
     }
 ]

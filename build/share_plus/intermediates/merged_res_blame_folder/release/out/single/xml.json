@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/xml/flutter_share_file_paths.xml",
-        "source": "/Users/macbookpro/development/flutter/.pub-cache/hosted/pub.dartlang.org/share_plus-6.3.0/android/src/main/res/xml/flutter_share_file_paths.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/xml/flutter_share_file_paths.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-main-6:/xml/flutter_share_file_paths.xml"
     }
 ]

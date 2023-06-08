@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/bloc/cost/cost_bloc.dart';
@@ -19,10 +20,12 @@ class AddExpenseDialog{
           borderRadius: BorderRadius.circular(20),
         ),
         backgroundColor: AppTheme.background,
-        title: Text('Xarajat turini qoshish'),
-        content: TextFieldWidget(controller: controller, icon: 'assets/icons/category.svg', hint: 'Harajat turini kiriting',horizontal: true,),
+        title: Text('typeExpense'.tr()),
+        content: TextFieldWidget(controller: controller, icon: 'assets/icons/category.svg', hint: 'enterExpense'.tr(),horizontal: true,),
         actions: [
-          TextButton(onPressed: (){}, child: Text('Orqaga')),
+          TextButton(onPressed: (){
+            Navigator.pop(context);
+          }, child: Text('back'.tr())),
           TextButton(onPressed: ()async{
             HttpResult res = await repository.addCost(controller.text);
             if(res.result["status"] == 'Ok'){
@@ -30,7 +33,7 @@ class AddExpenseDialog{
               Navigator.pop(context);
               costBloc.getCosts();
             }
-          }, child: Text('Qoshihs')),
+          }, child: Text('add'.tr())),
         ],
       );
     });

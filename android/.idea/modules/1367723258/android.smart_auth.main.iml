@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":smart_auth:main" external.linked.project.path="$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="noStdlib" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="classpath">
+              <args>
+                <arg>$MODULE_DIR$/../../../../build/smart_auth/intermediates/compile_r_class_jar/debug/R.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/1b8a60e11e5a68077de1980fdce93f65/transformed/jetified-flutter_embedding_debug-1.0.0-800594f1f4a6674010a6f1603c07a919b4d7ebd7.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/36e56113f15648246ebfc9167eaa9bca/transformed/jetified-window-java-1.0.0-beta04-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/30d8002fd6400dacc046eb3577b0ebb4/transformed/jetified-window-1.0.0-beta04-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a8df9bba6fdd7bf435049336d1050431/transformed/jetified-kotlinx-coroutines-android-1.5.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/336dadf55ef461c79ec779fc7e6a47c2/transformed/jetified-kotlinx-coroutines-core-jvm-1.5.2.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/01f19e327c5abac9a3ec85373b104a70/transformed/jetified-kotlin-stdlib-jdk8-1.6.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/fd72e625bda0352100bceeab150dde41/transformed/jetified-kotlin-stdlib-jdk7-1.6.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/109c40db95ae75427a8f5d871659f8aa/transformed/jetified-kotlin-stdlib-1.6.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/2d3621eafc1d5d79f3244ce499f6fb20/transformed/jetified-annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/44229213a11aa73709d2f55c2f5244ee/transformed/jetified-kotlin-stdlib-common-1.6.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-java8/2.2.0/cd3478503da69b1a7e0319bd2d1389943db9b364/lifecycle-common-java8-2.2.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/020417fa0f428ffd0a819cdb561abc2a/transformed/jetified-play-services-auth-20.4.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b6faf9fab56318c567792b44e302d052/transformed/jetified-play-services-auth-api-phone-18.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/69f6696e90a74f7bbfa02cfe10561a1a/transformed/jetified-play-services-auth-base-18.0.4-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/cb7bf222438739b6326ac69b74f54ee5/transformed/jetified-play-services-fido-19.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/02287f17f43b2511b5fafe28d7b6ca7e/transformed/jetified-play-services-base-18.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a1e4a5def348945db518c4cd108b872c/transformed/jetified-play-services-tasks-18.0.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/edc478a9090a3087717613558b1a2de9/transformed/jetified-play-services-basement-18.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/0b3cbcdc555685c36d7ec1506a9cabfd/transformed/fragment-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/0700716f254e9824f95f9bc2f7332086/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e8fd862543da86209322a499ff666405/transformed/viewpager-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/ab522ce74f1b6eb0f00e17150dc1749b/transformed/jetified-activity-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/70924762370b6ab725549bbfb3ec7447/transformed/customview-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/1f49b68612ca489fede6e9cd2482cd0f/transformed/core-1.6.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e3e166ece528bed7c9314abd23d48dcd/transformed/lifecycle-runtime-2.2.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e60c1472c3ec3884ab45d6eb1c0b5fdc/transformed/jetified-savedstate-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/5ed8668d5d66c3295c819fe86bf26b43/transformed/lifecycle-livedata-2.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/9ebd42d950bc305ec041d604577dcece/transformed/lifecycle-livedata-core-2.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/481fc1367b8c813bb1707336f97fd1f6/transformed/core-runtime-2.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/788994480da679c8e426a4e4ff260bcf/transformed/versionedparcelable-1.1.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/6c1bbc66ffb0890874096d6423441f3e/transformed/lifecycle-viewmodel-2.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/67855bfaeb183dda0e9a3edbde6f7a5a/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/5d7223248baaa36406972692af9ccf95/transformed/jetified-tracing-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-31/android.jar</arg>
+                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+              </args>
+            </stringArg>
+            <stringArg name="destination" arg="$MODULE_DIR$/../../../../build/smart_auth/tmp/kotlin-classes/debug" />
+            <stringArg name="jvmTarget" arg="1.8" />
+            <stringArg name="moduleName" arg="smart_auth_debug" />
+            <stringArg name="apiVersion" arg="1.6" />
+            <stringArg name="languageVersion" arg="1.6" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/main/res;file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/debug/res;file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/rs/debug;file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/androidTest/res;file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/androidTestDebug/res;file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/debug" />
+    <content url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/main">
+      <sourceFolder url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/smart_auth-1.0.8/android/src/main/kotlin" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/aidl_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/ap_generated_sources/debug/out">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/renderscript_source_output_dir/debug/out" />
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/resValues/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/resValues/debug" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/res/rs/debug" />
+    <content url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/source/buildConfig/debug">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../build/smart_auth/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.10" level="project" />
+    <orderEntry type="library" name="Gradle: io.flutter:flutter_embedding_debug:1.0.0-800594f1f4a6674010a6f1603c07a919b4d7ebd7" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation:1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-common-java8:2.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-common:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.fragment:fragment:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.core:core:1.6.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.viewpager:viewpager:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.customview:customview:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.loader:loader:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.arch.core:core-runtime:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.activity:activity:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.savedstate:savedstate:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.tracing:tracing:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.window:window-java:1.0.0-beta04@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.window:window:1.0.0-beta04@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth:20.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:18.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-base:18.0.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-fido:19.0.0@aar" level="project" />
+  </component>
+</module>

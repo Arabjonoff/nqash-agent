@@ -1,5 +1,6 @@
 // ignore_for_file: non_constant_identifier_names
 import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:naqsh_agent/src/bloc/agent/agent_bloc.dart';
@@ -30,13 +31,9 @@ class AddIncomeScreen extends StatefulWidget {
 }
 
 class _AddIncomeScreenState extends State<AddIncomeScreen> {
-  final List<String> items = [
-    'sum',
-    'dollar',
-  ];
   String? selectedValue;
-  String value = 'Agent';
-  String wallet = 'Hamyon';
+  String value = 'agent'.tr();
+  String wallet = 'wallet'.tr();
   String? walletType;
   var data = DateTime.now();
   TextEditingController controller = TextEditingController();
@@ -84,8 +81,8 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
           foregroundColor: AppTheme.black24,
           backgroundColor: AppTheme.white,
           centerTitle: true,
-          title: const Text(
-            'Kirim qo\'shish',
+          title:  Text(
+            'addIncome'.tr(),
             style: TextStyle(
                 fontSize: 25, fontWeight: FontWeight.w700, color: Colors.black),
           ),
@@ -193,8 +190,8 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                                 builder: (context) =>
                                                     const AddAgentScreen()));
                                       },
-                                      child: const Text(
-                                          'Sizda hali agentlar yoq agent qoshish'))
+                                      child:  Text(
+                                          'noAgent'.tr()))
                                   : Scrollbar(
                                       child: ListView.builder(
                                         itemCount: snapshot.data!.length,
@@ -260,10 +257,10 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  'Qarzi:',
+                                  'debt1'.tr(),
                                 ),
                                 Text(
-                                  '${priceFormat.format(summa_uzs)} som',
+                                  '${priceFormat.format(summa_uzs)}' +'waleType'.tr(),
                                   style: TextStyle(
                                       color:
                                           summa_uzs.toString().startsWith('-')
@@ -325,8 +322,8 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                               return const WalletAddScreen();
                                             }));
                                           },
-                                          child: const Text(
-                                              'Sizda hali hamyon yoq hamyon qoshinig'))
+                                          child:  Text(
+                                              'addWallet'.tr()))
                                       : Scrollbar(
                                           child: ListView.builder(
                                               itemCount: snapshot.data!.length,
@@ -378,7 +375,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                               }))
                     else
                       const SizedBox(),
-                    if (value == 'Agent')
+                    if (value == 'Agent'||value == 'Агенты' || value =='Агентлар')
                       Container()
                     else
                       GestureDetector(
@@ -388,7 +385,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                         },
                         child: TextFieldWidget(
                             enables: false,
-                            currencyType: '${priceFormat.format(doll)} som',
+                            currencyType: '${priceFormat.format(doll)}'+ 'waleType'.tr(),
                             controller: controller,
                             icon: 'assets/icons/sum.svg',
                             hint: 'Bugungi kurs'),
@@ -416,7 +413,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                                       context);
                                             },
                                             child: Text(
-                                                'sizda hali kurs yoq kurs qoshing'))
+                                                'addCourse'.tr()))
                                         : ListView.builder(
                                             itemCount: data.length,
                                             itemBuilder: (context, index) {
@@ -440,7 +437,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                                             .spaceBetween,
                                                     children: [
                                                       Text(
-                                                          '${data[index].course} sum'),
+                                                          '${data[index].course} ${'waleType'.tr()}'),
                                                       Text(DateFormat(
                                                               'yyyy-MM-dd')
                                                           .format(data[index]
@@ -460,7 +457,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                       type: true,
                       controller: sumController,
                       icon: 'assets/icons/coin.svg',
-                      hint: 'Summa',
+                      hint: 'summa'.tr(),
                       currency: true,
                     ),
                     if (value == 'Agent')
@@ -498,7 +495,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                   ),
                                   child: Center(
                                       child: Text(
-                                    'So\'m qarzi uchun',
+                                    'debtOfSoum'.tr(),
                                     style: TextStyle(
                                         color: button
                                             ? AppTheme.white
@@ -540,7 +537,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                                   ),
                                   child: Center(
                                       child: Text(
-                                    'Dollar qarzi uchun',
+                                    'dollarsForDebt'.tr(),
                                     style: TextStyle(
                                         color: button1
                                             ? AppTheme.white
@@ -557,7 +554,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                     TextFieldWidget(
                         controller: controllerComment,
                         icon: 'assets/icons/message.svg',
-                        hint: 'Izoh'),
+                        hint: 'comment'.tr()),
                     if (value == 'Agent')
                       Container()
                     else
@@ -572,7 +569,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text('Qabul qilinadi:'),
+                            Text('accepted'.tr()),
                             Text(which_debt == 'sum'
                                 ? priceFormat.format(summaUzs).toString()
                                 : priceFormat.format(summaUsd).toString()),
@@ -587,14 +584,14 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
               children: [
                 Expanded(
                   child: OnTapWidget(
-                    title: 'Bekor qilish',
+                    title: 'cancel'.tr(),
                     onTap: () => Navigator.pop(context),
                     color: false,
                   ),
                 ),
                 Expanded(
                   child: OnTapWidget(
-                      title: "Qo'\shish",
+                      title: "add".tr(),
                       onTap: () async {
                         if(value == 'Agent'){
                           HttpResult result = await _repository.addOperation(
@@ -625,7 +622,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                               behavior: SnackBarBehavior.floating,
                               dismissDirection: DismissDirection.down,
                               content: AwesomeSnackbarContent(
-                                title: "Xatolik",
+                                title: "Error",
                                 message: result.result["error_message"],
                                 contentType: ContentType.failure,
                                 inMaterialBanner: false,
@@ -663,7 +660,7 @@ class _AddIncomeScreenState extends State<AddIncomeScreen> {
                               behavior: SnackBarBehavior.floating,
                               dismissDirection: DismissDirection.down,
                               content: AwesomeSnackbarContent(
-                                title: "Xatolik",
+                                title: "Error",
                                 message: result.result["error_message"],
                                 contentType: ContentType.failure,
                                 inMaterialBanner: false,

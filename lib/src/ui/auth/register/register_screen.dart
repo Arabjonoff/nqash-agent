@@ -78,8 +78,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       ),
                     ),
                   ),
-                  TextFieldWidget(controller: nameController, icon: 'assets/icons/profile.svg', hint: 'Ism'),
-                  TextFieldWidget(controller: surnameController, icon: 'assets/icons/profile.svg', hint: 'Familya'),
+                  TextFieldWidget(controller: nameController, icon: 'assets/icons/profile.svg', hint: 'name'.tr()),
+                  TextFieldWidget(controller: surnameController, icon: 'assets/icons/profile.svg', hint: 'surname'.tr()),
                   SizedBox(height: 10*h,),
                   Container(
                     margin: EdgeInsets.symmetric(

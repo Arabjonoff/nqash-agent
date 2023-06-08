@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/custom_dialog.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/notification_action.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/notification_action.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/notification_action.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_action.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/notification_template_part_time.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/notification_template_icon_group.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/layout/notification_action_tombstone.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/layout/custom_dialog.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/layout/custom_dialog.xml"
     }
 ]

@@ -4,7 +4,7 @@
     name=":app"
     type="APP"
     maven="android:app:"
-    gradle="7.1.2"
+    gradle="7.2.0"
     buildFolder="/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/app"
     bootClassPath="/Users/macbookpro/Library/Android/sdk/platforms/android-33/android.jar:/Users/macbookpro/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
     javaSourceLevel="1.8"

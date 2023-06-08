@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:naqsh_agent/src/bloc/wallet/wallet_bloc.dart';
 import 'package:naqsh_agent/src/dialog/alert/alert_dialog.dart';
@@ -38,8 +39,8 @@ class _WalletScreenState extends State<WalletScreen> {
         foregroundColor: AppTheme.black24,
         backgroundColor: AppTheme.white,
         centerTitle: true,
-        title: const Text(
-          'Hamyonlar',
+        title:  Text(
+          'wallet'.tr(),
           style: TextStyle(
               fontSize: 30, fontWeight: FontWeight.w700, color: Colors.black),
         ),
@@ -66,7 +67,7 @@ class _WalletScreenState extends State<WalletScreen> {
                        }, data: data[index], bg: data[index].bg,
                        delete: ()  async{
 
-                         ShowAlertDialog.showAlertDialog(context,'Ogohlantirish','Rostanham ochirmoqchimisz', ()async{
+                         ShowAlertDialog.showAlertDialog(context,'warning'.tr(),'deleteOk'.tr(), ()async{
                            HttpResult res = await _repository.deleteWallet(data[index].id);
                            if(res.result["status"] == "ok"){
                              // ignore: use_build_context_synchronously
@@ -77,7 +78,7 @@ class _WalletScreenState extends State<WalletScreen> {
                        },
                      );
                    },
-                 ):const Center(child: Text('Sizda hamyonlar yoq'));
+                 ):const Center(child: Text('Ooops empty'));
                }
                return  Container(
                  width: MediaQuery.of(context).size.width,
@@ -100,7 +101,7 @@ class _WalletScreenState extends State<WalletScreen> {
             ),
           ),
           OnTapWidget(
-              title: 'Hamyon qo‘shish',
+              title: 'addWallet'.tr(),
               onTap: () {
              Navigator.push(context, MaterialPageRoute(builder: (context){
                return WalletAddScreen();

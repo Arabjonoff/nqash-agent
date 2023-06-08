@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
 
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:intl/intl.dart';
@@ -72,7 +73,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
         foregroundColor: AppTheme.black24,
         backgroundColor: AppTheme.white,
         centerTitle: true,
-        title: Text('Harajatlar',style: TextStyle(fontSize: 25*w,fontWeight: FontWeight.w700,color: Colors.black),),
+        title: Text('expense'.tr(),style: TextStyle(fontSize: 25*w,fontWeight: FontWeight.w700,color: Colors.black),),
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(kToolbarHeight),
           child: Container(
@@ -139,7 +140,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                         padding: EdgeInsets.symmetric(
                             horizontal: 16.0 * w, vertical: 10 * h),
                         child: Text(
-                          'Hamyon boyicha ',
+                          'theWallet'.tr(),
                           style: TextStyle(
                               fontSize: 16 * h, fontWeight: FontWeight.w600),
                         ),
@@ -207,7 +208,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                                                 height: 5 * h,
                                               ),
                                               Text(
-                                                'Balans',
+                                                'balance'.tr(),
                                                 style: TextStyle(
                                                     fontSize: 15 * h,
                                                     fontWeight: FontWeight.w400,
@@ -261,7 +262,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                                                 }));
                                       },
                                       child: Text(
-                                        '+ Hanyon qo\'shish',
+                                        'addWallet'.tr(),
                                         style: TextStyle(color: Colors.white),
                                       ),
                                     ),
@@ -277,7 +278,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                         padding: EdgeInsets.symmetric(
                             horizontal: 16.0 * w, vertical: 10 * h),
                         child: Text(
-                          'Sana boyicha ',
+                          'theDate'.tr(),
                           style: TextStyle(
                               fontSize: 16 * h, fontWeight: FontWeight.w600),
                         ),
@@ -297,7 +298,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                         padding: EdgeInsets.symmetric(
                             horizontal: 16.0 * w, vertical: 10 * h),
                         child: Text(
-                          'Xarajat turi boyicha ',
+                          'typeExpense'.tr(),
                           style: TextStyle(
                               fontSize: 16 * h, fontWeight: FontWeight.w600),
                         ),
@@ -329,13 +330,13 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                 TextButton(onPressed: (){
                   expenseBloc.getExpenses(date, '','');
                   Navigator.pop(context);
-                }, child: Text('Barchasi korish')),
+                }, child: Text('allSee'.tr())),
                 Row(
                   children: [
-                    Expanded(child: OnTapWidget(title: 'Orqaga', onTap: () =>Navigator.pop(context),color: false,)),
+                    Expanded(child: OnTapWidget(title: 'back'.tr(), onTap: () =>Navigator.pop(context),color: false,)),
                     Expanded(
                       child: OnTapWidget(
-                        title: 'Qollash',
+                        title: 'confirmation'.tr(),
                         onTap: () {
                           expenseBloc.getExpenses(DateFormat('yyyy-MM-dd').format(filterDate), filterWallet,filterCost);
                           Navigator.pop(context);
@@ -369,11 +370,11 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                                     builder: (BuildContext context) {
                                       return AlertDialog(
                                         content: Text(
-                                            "Haqiqatan ham oʻchirib tashlamoqchimisiz ${data[index].client}?"),
+                                            'deleteOk'.tr()),
                                         actions: <Widget>[
                                           TextButton(
                                             child: Text(
-                                              "Orqaga",
+                                              "back".tr(),
                                               style: TextStyle(
                                                   color: Colors.black),
                                             ),
@@ -384,7 +385,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                                           ),
                                           TextButton(
                                             child: Text(
-                                              "O'chirish",
+                                              "delete".tr(),
                                               style: TextStyle(
                                                   color: Colors.red),
                                             ),
@@ -439,7 +440,7 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
                                 ],
                               ),
                               SizedBox(height: 8*h,),
-                              data[index].comment.isEmpty?const SizedBox(): span('Izoh:', data[index].comment),
+                              data[index].comment.isEmpty?const SizedBox(): span('comment'.tr(), data[index].comment),
                             ],
                           ),
                         ));
@@ -516,14 +517,14 @@ class _ExpenseScreenState extends State<ExpenseScreen> {
         alignment: Alignment.centerRight,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.end,
-          children: const [
-            Icon(
+          children:  [
+            const Icon(
               Icons.delete,
               color: Colors.red,
             ),
             Text(
-              " O'chirish",
-              style: TextStyle(
+              "delete".tr(),
+              style: const TextStyle(
                 color: Colors.red,
                 fontWeight: FontWeight.w700,
               ),

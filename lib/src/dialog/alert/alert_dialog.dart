@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class ShowAlertDialog{
@@ -14,11 +15,11 @@ class ShowAlertDialog{
             onPressed: () {
               Navigator.pop(context);
             },             // function used to perform after pressing the button
-            child: Text('Yoq'),
+            child: Text('no'.tr()),
           ),
           TextButton(
             onPressed: onTap,
-            child: Text('Ha'),
+            child: Text('yes'.tr()),
           ),
         ],
       );

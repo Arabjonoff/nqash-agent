@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/webview_flutter_android/intermediates/merged_res/release/values-da/values-da.xml",
+            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-merged_res-11:/values-da/values-da.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-da/values-da.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/82726261a04049c462ad26c9439a41ef/transformed/core-1.6.0/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/webview_flutter_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-9:/values-da/values-da.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-da/values-da.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/82726261a04049c462ad26c9439a41ef/transformed/core-1.6.0/res/values-da/values-da.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

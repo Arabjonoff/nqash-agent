@@ -48,7 +48,7 @@ class ShowBottomLanguageDialog{
                   elevation: 0,
                   child: ListTile(
                     onTap: (){
-                      context.setLocale(const Locale('uz',));
+                      context.setLocale(const Locale('en',));
                       Navigator.pop(context);
                     },
                     leading: Image.asset('assets/icons/uz.png'),

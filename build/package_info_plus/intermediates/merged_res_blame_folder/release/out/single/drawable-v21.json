@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/package_info_plus/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/drawable-v21/notification_action_background.xml"
+        "merged": "dev.fluttercommunity.plus.packageinfo.package_info_plus-merged_res-10:/drawable-v21/notification_action_background.xml",
+        "source": "dev.fluttercommunity.plus.packageinfo.package_info_plus-core-1.6.0-2:/drawable-v21/notification_action_background.xml"
     }
 ]

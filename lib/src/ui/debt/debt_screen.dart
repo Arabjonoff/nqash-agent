@@ -443,24 +443,20 @@ class _DebtScreenState extends State<DebtScreen> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20)),
                       child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           Text(
-                            'allBalance'.tr(),
+                            'allBalanceWallet'.tr(),
                             style: TextStyle(fontSize: 18 * h),
                           ),
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Text("${priceFormat.format(count)} ${"waleType".tr()}",
-                                  style: TextStyle(fontSize: 18 * h)),
-                              SizedBox(
-                                height: 5 * h,
-                              ),
-                              Text('${priceFormat.format(countUsd)} \$',
-                                  style: TextStyle(fontSize: 18 * h)),
-                            ],
-                          )
+                          const Spacer(),
+                          Text('${priceFormat.format(count)} '+'waleType'.tr(),
+                              style: TextStyle(fontSize: 18 * h)),
+                          SizedBox(
+                            width: 5 * h,
+                          ),
+                          Text('/ ${priceFormat.format(countUsd)} \$',
+                              style: TextStyle(fontSize: 18 * h))
                         ],
                       ),
                     ),
@@ -487,7 +483,7 @@ class _DebtScreenState extends State<DebtScreen> {
             }
           ),
           if(loading)Container(
-            color: Colors.black.withOpacity(0.7),
+            color: Colors.transparent,
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height,
             child: Center(
@@ -517,7 +513,7 @@ class _DebtScreenState extends State<DebtScreen> {
 
   state(){
     loading = true;
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(Duration(seconds: 1), () {
       setState(() {
         loading = false;
       });

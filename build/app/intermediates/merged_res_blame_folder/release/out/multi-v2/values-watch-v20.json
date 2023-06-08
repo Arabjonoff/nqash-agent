@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "uz.naqshsoft.naqsh_agent.app-mergeReleaseResources-15:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/3535be8f62b8f6744ac9d5afbd552ab5/transformed/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
+                    "source": "/Users/macbookpro/.gradle/caches/transforms-3/ab0447b282d263f9ae3cc516ffd2ba18/transformed/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/path_provider_android/intermediates/merged_res/release/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "io.flutter.plugins.pathprovider.path_provider_android-merged_res-10:/layout-v16/notification_template_custom_big.xml",
+        "source": "io.flutter.plugins.pathprovider.path_provider_android-core-1.6.0-2:/layout-v16/notification_template_custom_big.xml"
     }
 ]

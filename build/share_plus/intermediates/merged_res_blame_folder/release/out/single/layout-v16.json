@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Users/macbookpro/AndroidStudioProjects/naqsh_agent/build/share_plus/intermediates/merged_res/release/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/macbookpro/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "dev.fluttercommunity.plus.share.share_plus-merged_res-12:/layout-v16/notification_template_custom_big.xml",
+        "source": "dev.fluttercommunity.plus.share.share_plus-core-1.9.0-0:/layout-v16/notification_template_custom_big.xml"
     }
 ]
